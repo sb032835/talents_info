@@ -1,23 +1,29 @@
 # Talents Info
 
-Shows talents info **when you open talents game window** or on **!EP** proxy command
-Also shows **EXP +N** messages when you receive talents experience points along with DailyCap limit if it wasn't reached yet and warns you when it gets reached
+**當你打開特性視窗** 或者 在proxy 頻道(/8)上使用指令 **EP** 
+顯示**特性資訊 包含 等級 總共獲得了多少經驗**
+以及是否到達**每日bouns上限**
+如果尚未到達**每日bouns上限**時，當獲得特性經驗時會顯示 **+N 經驗**，並在達到上限時給予**紅色提示警告**
 
-<img src=http://u.cubeupload.com/Owyn/talentinfo.png>
+
+https://imgur.com/OLQHsx5
 
 # FAQ:
 
-**Q.** - my level isn't the same as this modules shows?!?!
+**Q.** - 顯示的**特性等級**與我的**特性總點數**不同  
 
-**A.** - well, first of all - game doesn't even show your level anywhere in the game in the first place
-see this document for more info: https://docs.google.com/spreadsheets/d/e/2PACX-1vTy7_5TYA_WUd--cFqYeGFm0mnb9oaCzcar3yH3FgkQD6y-mRD7id9k97ttrMbkjjId8ly-aBWzexZt/pubhtml?gid=5547005
-
-
-**Q.** - I haven't done anything today but my dailyexp isn't zero already!!?
-
-**A.** - It resets once a day, when? - No idea, there is no information about that built-in the game.
+**A.** - 首先 - 遊戲裡不會顯示任何有關特性等級的資訊
+可以在以下連結尋找相關資訊: https://docs.google.com/spreadsheets/d/e/2PACX-1vTy7_5TYA_WUd--cFqYeGFm0mnb9oaCzcar3yH3FgkQD6y-mRD7id9k97ttrMbkjjId8ly-aBWzexZt/pubhtml?gid=5547005
 
 
-**Q.** - my cap isn't the same as in the document above?!?!
+**Q.** - 我今天並沒有做什麼事，但我的每日bouns沒有恢復!!?
 
-**A.** - yes, it's 89% of that cap, after that your gained EXP gets reduced noticeably, see this for more info why https://docs.google.com/document/d/16wuje8nV7yYd0y2gq3oVFbjpR2Ulx4SQRWQQkK-LVrs
+**A.** - 重置的時間是每日凌晨的4點，請注意時間.
+
+
+**Q.** - 我的每日bouns上限與上方文件不同?!?!
+
+**A.** - 是的，可以參考這連結說明 https://docs.google.com/document/d/16wuje8nV7yYd0y2gq3oVFbjpR2Ulx4SQRWQQkK-LVrs
+
+**ps** - 總歸一句，文件上的資訊都是參考用。實際上每日bouns的上限與連結資料有點出入，以實際顯示為主
+         
