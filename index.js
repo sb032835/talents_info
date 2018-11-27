@@ -14,7 +14,8 @@ module.exports = function talentsinfo(mod) {
     // send message exp/cap (exp%)
     function msg()
 	{
-        command.message(`<font color="#FDD017">info:</font> LVL <font color="#00FFFF">${lvl}</font>, EXP: <font color="#00FFFF">${exp}</font>, DailyEXP <font color="#00FFFF">${dexp}/${sdcap} (${Math.round(100*dexp/sdcap)}%) </font>`);
+        	command.message(`<font color="#FDD017">特性訊息:</font> 等級 <font color="#17fdd2">${lvl}</font>, EXP: <font color="#17fdd2">${exp}</font>`);
+		command.message(`今日EXP <font color="#17fdd2">${dexp}/${sdcap}</font><font color="#17fdd2"><font color="#FFF380"> (${Math.round(100*dexp/sdcap)}%) </font>`);
 	}
 	
 	mod.hook('S_LOAD_EP_INFO', 1, event=>{
@@ -44,7 +45,7 @@ module.exports = function talentsinfo(mod) {
 			{
 				if(!warned)
 				{
-					command.message('<font color="#FDD017">EXP</font> Daily Cap <font color="#FF0000">reached!</font>');
+					command.message('<font color="#FDD017">特性EXP</font> 每日上限 <font color="#FF0000">己到達!</font>');
 					warned = true;
 				}
 			}
@@ -52,7 +53,8 @@ module.exports = function talentsinfo(mod) {
 			{
 				warned = false;
 			}
-			command.message('<font color="#00FFFF">+' + gained + ' EXP</font>' + (!warned ? ' (' + dexp + ' / ' + sdcap + ' (Daily Cap), <font color="#FFF380">' + (sdcap-dexp) + '</font> EXP left for today uncapped)' : ' (' + scmod + '% mod)' ));
+			command.message('<font color="#17fdd2">+' + gained + ' exp</font>' );
+			command.message((!warned ? '每日額度 (<font color="#FFF380">' + dexp + ' </font>/ ' + sdcap + ') , 剩餘 <font color="#FFF380">' + (sdcap-dexp) + '</font> exp': ' (' + scmod + '% mod)' ));
 		}
 	});
 	
