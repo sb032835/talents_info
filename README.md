@@ -5,8 +5,8 @@
 以及是否到達**每日bouns上限**
 如果尚未到達**每日bouns上限**時，當獲得特性經驗時會顯示 **+N 經驗**，並在達到上限時給予**紅色提示警告**
 
+![image](https://imgur.com/OLQHsx5)
 
-https://i.imgur.com/OLQHsx5.png
 
 # FAQ:
 
