@@ -1,6 +1,6 @@
 module.exports = function talentsinfo(mod) {
 	const command = mod.command || mod.require.command;
-	const softcap = 0.8901403358192;
+	const softcap = 0.88945;
 	let warned = false;
 	let lvl = 0,
 		exp = 0,
